@@ -32,15 +32,15 @@ CLI commands are preceded by a '$'
 5. Scroll back to the top of the OAuth and Permissions page and click the "Install to Workspace" button
 6. Click "Allow" when prompted to install to your workspace with the permissions required.
 7. When redirected back to the OAuth page, there should now be a Bot User OAuth Token at the top
-8. Copy the token and add the following line to your .env file created earlier, replacing <Bot User OAuth Token> with your token. It's important that you use the same variable name
-> SLACK_BOT_TOKEN=<Bot User OAuth Token>
+8. Copy the token and add the following line to your .env file created earlier, replacing [Bot User OAuth Token] with your token. It's important that you use the same variable name
+> SLACK_BOT_TOKEN=[Bot User OAuth Token]
 ### Generate an App Token
 1. While still in your App's config, click "Basic Information" in the left sidebar 
 2. Scroll down to "App-Level Tokens" and click "Generate Token and Scopes"
 3. Give the token a name like "socket-mode-token" and add the "connections:write" scope
 4. Click generate, then copy the token that is generated
-5. Add the token to you .env file like so, replacing <App-Level Token> with your token
-> SLACK_APP_TOKEN=<App-Level Token>
+5. Add the token to you .env file like so, replacing [App-Level Token] with your token
+> SLACK_APP_TOKEN=[App-Level Token]
 ### Enable Socket Mode
 1. Click "Socket Mode" in the left sidebar
 2. Toggle "Enable Socket Mode" on under the "Connect using Socket Mode" section
@@ -53,11 +53,11 @@ CLI commands are preceded by a '$'
 1. Go to https://www.virustotal.com/gui/sign-in
 2. Create an account or sign into an existing account
 3. Click your profile name in the top right and select "API Key" from the dropdown menu
-4. Copy the API key on this page and add it to your .env file like so, replacing <Virustotal API Key> with your key
-> VIRUSTOTAL_API_KEY=<Virustotal API Key>
+4. Copy the API key on this page and add it to your .env file like so, replacing [Virustotal API Key] with your key
+> VIRUSTOTAL_API_KEY=[Virustotal API Key]
 ### Add the App to a channel
 1. Go back to your slack workspace and you should now see your app under the "Apps" section of the left sidebar
-2. Find a channel that you would like to add the app to and type "@<App Name>", replacing <App Name> with the name of your app
+2. Find a channel that you would like to add the app to and type "@[App Name]", replacing [App Name] with the name of your app
 3. Click "Add to Channel" in the popup
 ### Run the App
 1. Change directories to the cloned directory
