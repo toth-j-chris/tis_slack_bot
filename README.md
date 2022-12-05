@@ -13,7 +13,7 @@ CLI commands are preceded by a '$'
 4. Install the dependencies with pip
 > $ pip install slack_bolt python-dotenv requests
 ### Create a file called ".env" in the root of the cloned project
-> $ cd tis_slack_bot
+> $ cd tis_slack_bot\n
 > $ touch .env
 ### Create a Slack workspace to install the app in
 1. [Create a Slack account](https://slack.com/signin#/signin)
