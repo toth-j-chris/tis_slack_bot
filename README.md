@@ -73,3 +73,4 @@ CLI commands are preceded by a '$'
 ### Additional reference material
 1. More info about creating and configuring the app can be found here: https://api.slack.com/start/building/bolt-python
 2. More info about Socket Mode can be found here: https://api.slack.com/apis/connections/socket
+3. This was built and tested using python 3.8.10. Later versions should work, but are not strictly supported
